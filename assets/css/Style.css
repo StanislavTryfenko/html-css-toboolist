@@ -1,0 +1,30 @@
+
+
+
+.immagine_laterale{
+    float: left;
+}
+
+.success_checkmark::before{
+    float: left;
+    content: '✔' ;
+    color: chartreuse;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    border: 1px solid chartreuse;
+    background: white;
+    border-radius: 50%;
+ }
+
+ .failure_checkmark::before{
+    float: left;
+    content: '✕' ;
+    color: red;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    border: 1px solid red;
+    background: white;
+    border-radius: 50%;
+ }
