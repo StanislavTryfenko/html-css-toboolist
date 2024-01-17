@@ -1,4 +1,14 @@
 
+ul {
+    padding: 0;
+    text-align: left;
+}
+li{
+    marker: none;
+    height: 50px;
+    vertical-align: middle;
+    
+}
 
 
 #logo{
@@ -22,9 +32,8 @@ height: 32px;
 box-shadow: none;
 }
 
-.success_checkmark::before{
-    float: left;
-    content: '✔' ;
+.success_checkmark{
+
     color: chartreuse;
     width: 20px; 
     height: 20px;
@@ -34,9 +43,8 @@ box-shadow: none;
     border-radius: 50%;
  }
 
- .failure_checkmark::before{
-    float: left;
-    content: '✕' ;
+ .failure_checkmark{
+
     color: red;
     width: 20px; 
     height: 20px;
@@ -46,53 +54,57 @@ box-shadow: none;
     border-radius: 50%;
  }
 
- .editorial_tag::after{
-float: right;
-content: 'Editorial';
+ .editorial_tag{
+font-size: smaller;
+color: white;
 text-align: center;
 background: #47ADF1;
-width: 20px;
-height: 20px;
-border-radius: 10%
+border-radius: 12px;
+padding: 4px;
 }
 
- .q1goals_tag::after{
-float: right;
-content: 'Q1 Goals';
+ .q1goals_tag{
+font-size: smaller;
+color: white;
 text-align: center;
 background: #9C72E4;
-height: 20px;
+border-radius: 12px;
+padding: 4px;
  }
 
- .recruiting_tag::after{
-float: right;
-content: 'Recruiting';
+ .recruiting_tag{
+font-size: smaller;
+color: white;
 text-align: center;
 background: #64C0A9;
-height: 20px;
+border-radius: 12px;
+padding: 4px;
  }
 
- .mobile_tag::after{
-float: right;
-content: 'Mobile';
+ .mobile_tag{
+font-size: smaller;
+color: white;
 text-align: center;
 background: #F29E33;
-height: 20px;
+border-radius: 12px;
+padding: 4px;
  }
  
- .website_tag::after{
-float: right;
-content: 'Website';
+ .website_tag{
+font-size: smaller;
+color: white;
 text-align: center;
 background: #D863A0;
-height: 20px;
+border-radius: 12px;
+padding: 4px;
  }
 
- .sales_tag:before{
-float: right;
-content: 'Sales';
-text-align: center;
+ .sales_tag{
+    font-size: smaller;
+    color: white;
+    text-align: center;
 background: #B0C926;
-height: 20px;
+border-radius: 12px;
+padding: 4px;
  }
  
