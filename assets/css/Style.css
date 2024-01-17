@@ -1,18 +1,31 @@
+body{
+    margin: 0;
+    background-color: #f6f8f9;
+}
+header{
+    padding: 20px;
+    background-color: white;
+}
 
 ul {
-    padding: 0;
-    text-align: left;
-}
-li{
-    marker: none;
-    height: 50px;
-    vertical-align: middle;
-    
+padding: 0;
+text-align: left;
+font-size: 26px;
+list-style-type: none;
 }
 
+li{
+height: 50px;
+vertical-align: middle;
+font-size: 16px;
+}
+
+#title{
+font-size: 32px;
+}
 
 #logo{
-    float: left;
+
 }
 
 #task{
@@ -26,32 +39,40 @@ height: 32px;
 #section{
 background-color: white;
 color: #f6f8f9;
-border-color: #f6f8f9;
+border-color: black;
 border-radius: 8px;
 height: 32px;
 box-shadow: none;
+border-width: 1px;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
 }
 
 .success_checkmark{
-
-    color: chartreuse;
-    width: 20px; 
-    height: 20px;
-    text-align: center;
-    border: 1px solid chartreuse;
-    background: white;
-    border-radius: 50%;
+margin-right: 8px;
+color: chartreuse;
+width: 20px; 
+height: 20px;
+text-align: center;
+border: 1px solid chartreuse;
+background: white;
+border-radius: 50%;
  }
 
  .failure_checkmark{
-
-    color: red;
-    width: 20px; 
-    height: 20px;
-    text-align: center;
-    border: 1px solid red;
-    background: white;
-    border-radius: 50%;
+margin-right: 8px;
+color: red;
+width: 20px; 
+height: 20px;
+text-align: center;
+border: 1px solid red;
+background: white;
+border-radius: 50%;
  }
 
  .editorial_tag{
@@ -61,6 +82,7 @@ text-align: center;
 background: #47ADF1;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
 }
 
  .q1goals_tag{
@@ -70,6 +92,7 @@ text-align: center;
 background: #9C72E4;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
  }
 
  .recruiting_tag{
@@ -79,6 +102,7 @@ text-align: center;
 background: #64C0A9;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
  }
 
  .mobile_tag{
@@ -88,6 +112,7 @@ text-align: center;
 background: #F29E33;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
  }
  
  .website_tag{
@@ -97,14 +122,16 @@ text-align: center;
 background: #D863A0;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
  }
 
  .sales_tag{
-    font-size: smaller;
-    color: white;
-    text-align: center;
+font-size: smaller;
+color: white;
+text-align: center;
 background: #B0C926;
 border-radius: 12px;
 padding: 4px;
+margin-left: 4px;
  }
  
