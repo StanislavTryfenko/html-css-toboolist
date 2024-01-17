@@ -7,8 +7,9 @@ header{
     background-color: white;
 }
 
-hr{
-    background-color: #f6f8f9;
+hr {
+    border: 1px solid;
+    border-color: #f6f8f9;
     margin-left: -40px;
     margin-right: -40px;
 }
@@ -33,11 +34,10 @@ margin-top: 8px;
 font-size: 32px;
 vertical-align: middle;
 display: inline;
-vertical-align: middle;
 }
 
 #logo{
-    width: 2500x;
+    vertical-align: middle;
 }
 
 
@@ -66,6 +66,7 @@ border-width: 1px;
     background-color: white;
     padding: 20px 40px;
     border-radius: 20px;
+    margin-bottom: ;
 }
 
 .success_checkmark{
