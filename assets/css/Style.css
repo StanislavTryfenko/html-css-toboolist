@@ -1,8 +1,25 @@
 
 
 
-.immagine_laterale{
+#logo{
     float: left;
+}
+
+#task{
+background-color: #47ADF1;
+border: 0;
+color: white;
+border-radius: 8px;
+height: 32px;
+}
+
+#section{
+background-color: white;
+color: #f6f8f9;
+border-color: #f6f8f9;
+border-radius: 8px;
+height: 32px;
+box-shadow: none;
 }
 
 .success_checkmark::before{
@@ -28,3 +45,54 @@
     background: white;
     border-radius: 50%;
  }
+
+ .editorial_tag::after{
+float: right;
+content: 'Editorial';
+text-align: center;
+background: #47ADF1;
+width: 20px;
+height: 20px;
+border-radius: 10%
+}
+
+ .q1goals_tag::after{
+float: right;
+content: 'Q1 Goals';
+text-align: center;
+background: #9C72E4;
+height: 20px;
+ }
+
+ .recruiting_tag::after{
+float: right;
+content: 'Recruiting';
+text-align: center;
+background: #64C0A9;
+height: 20px;
+ }
+
+ .mobile_tag::after{
+float: right;
+content: 'Mobile';
+text-align: center;
+background: #F29E33;
+height: 20px;
+ }
+ 
+ .website_tag::after{
+float: right;
+content: 'Website';
+text-align: center;
+background: #D863A0;
+height: 20px;
+ }
+
+ .sales_tag:before{
+float: right;
+content: 'Sales';
+text-align: center;
+background: #B0C926;
+height: 20px;
+ }
+ 
